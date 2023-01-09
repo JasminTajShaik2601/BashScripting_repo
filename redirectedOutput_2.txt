@@ -1,0 +1,5 @@
+Hi! This is Jas
+How are you doing?
+I am learning bash scriptingHello again!
+
+I am appending this text again to the same file without overwriting.
