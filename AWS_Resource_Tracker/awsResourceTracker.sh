@@ -9,14 +9,15 @@
 
 #This Script will list the AWS resources
 
-#########################################
-
-
 #AWS EC2
 #AWS S3
 #AWS Lambda Functions
 #AWS IAM Users
 
+#########################################
+
+#Cron Job Schedule
+echo "Cron job ran at $(date)"
 #List EC2 instances
 echo "EC2 instances:"
 aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId'
